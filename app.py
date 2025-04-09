@@ -2,7 +2,7 @@ import linux
 
 def lambda_handler(event, context):
     """
-    AWS Lambda handler function
+    AWS Lambda handler test function
 
     Parameters:
     event (dict): Event data passed by AWS Lambda.
