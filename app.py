@@ -24,7 +24,7 @@ def lambda_handler(event, context):
         body = {"error": "Unsupported method"}
 
     return {
-        "statusCode": 200,
+        "statusCode": 400,
         "headers": {"Content-Type": "application/json"},
         "body": json.dumps(body)
     }
