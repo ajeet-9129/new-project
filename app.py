@@ -16,7 +16,7 @@ def lambda_handler(event, context):
     # Example: Handle different HTTP methods if triggered via API Gateway
     method = event.get("httpMethod", "GET")
     if method == "GET":
-        body = {"message": "Hello from Lambda test!"}
+        body = {"message": "Hello Lambda test!"}
     elif method == "POST":
         data = json.loads(event.get("body", "{}"))
         body = {"message": "Data received", "data": data}
