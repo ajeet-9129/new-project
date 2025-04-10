@@ -1,4 +1,4 @@
-import linux
+import windows
 
 def lambda_handler(event, context):
     """
