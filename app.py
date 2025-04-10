@@ -1,4 +1,4 @@
-import linux
+import aws
 
 def lambda_handler(event, context):
     """
