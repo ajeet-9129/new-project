@@ -1,5 +1,5 @@
-import windows
 
+import aws
 def lambda_handler(event, context):
     """
     AWS Lambda handler test function
